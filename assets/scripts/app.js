@@ -12,8 +12,8 @@ $('.start_now').click(function () {
 var player = {
     position: 0,
 }
-// const base_Url = window.location.origin + '/ninja_warrior';
-const base_Url = window.location.origin + '/';
+const base_Url = window.location.origin + '/ninja_warrior';
+// const base_Url = window.location.origin + '/';
 String.prototype.replaceAt = function (index, replacement) {
     return this.substr(0, index) + replacement + this.substr(index + replacement.length);
 }
