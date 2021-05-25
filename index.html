@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Warrior</title>
+    <link rel="stylesheet" href="assets/scss/app.css">
+
+</head>
+
+<body id="page">
+    <div class="page">
+        <div class="welcome_popup">
+            <img src="assets/images/Instruction_Page_Waste_Warior.png" />
+
+            <div class="text-center">
+                <button type="button" class="start_now" id="start_now">START NOW</button> 
+            </div>
+        </div>
+        <div class="winner_popup"><img src="./assets/images/you_win.png" alt="">
+            <div style="display: flex;">
+                <button type="button">SHARE</button>
+                <button type="button" id="restart">PLAY AGAIN</button>
+            </div>
+        </div>
+        <div class="page_wrapper">
+            <div class="start_popup" id="start_popup"> Roll the dice in the bottom of your page to start the game
+            </div>
+
+            <div class="divider"></div>
+            <div class="slot_container">
+                <div class="start">START</div>
+                <div class="exit">EXIT</div>
+                <img src="./assets/images/arrow_start.png" class="start_img" alt="Star Arrow">
+                <img src="./assets/images/arrow_start.png" class="end_img" alt="Star Arrow">
+                <div class="mover_shadow"> <img src="./assets/images/player-shadow.png" alt="Player Shadow"></div>
+                <div class="mover" id="mover"><img src="./assets/images/player.png" alt="Player"></div>
+            </div>
+            <div class="counter_container">
+                <div class="counter--item title">Attempt</div>
+                <div class="counter--item">
+                    <div class="result">
+                        <div class="result_header">GAINS </div>
+                        <div class="result_content" id="gain_score">000</div>
+                    </div>
+                </div>
+                <div class="counter--item p-0">
+                    <div class="result">
+                        <div class="result_header">LOSSES</div>
+                        <div class="result_content" id="lose_score">000</div>
+                    </div>
+                </div>
+                <div class="counter--item"> </div>
+                <button class="counter--dice" id="diceHandler"><img id="dice-img" width="50"
+                        src="assets/images/dice-1.png" alt=""></button>
+            </div>
+            <!-- <div class="footer">
+                <h4 class="instructor_title" id="instructor_title">Instruction Box</h4>
+            </div> -->
+            <div class="modal" id="modal">
+                <div class="count_point_losse">1</div>
+                <div class="count_point_gains">1</div>
+                <button class="close" id="close"><img src="assets/images/cancel.svg" alt=""></button>
+                <div class="header" id="modal_header"> </div>
+                <div class="content" id="content">
+                    <h6 class="modal_question" id="modal_question"> </h6>
+                    <img src="" id="modal_img" alt="">
+                    <div id="actions"></div>
+                </div>
+                <div class="content1" id="content1">
+                    <div class="box">
+                        <h2 class="answer">Answer</h2>
+                        <h6 id="content1_head"></h6>
+                        <p id="content1_text1"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="backdrop"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="assets/scripts/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.js"
+        integrity="sha512-ODKvqkCvM5zm8tfSi4fhlf/TQN3K2JXNxOjsS85pU3Ugw4ZdP5i1fvzB49QFXUJIy2gBLIyI7XZ/Qqbq7GjJkg=="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
