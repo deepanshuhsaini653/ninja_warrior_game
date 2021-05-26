@@ -821,7 +821,7 @@ const GRID_DATA = [{
     direction: -2,
     data: {
         color: WHITE_COLOR,
-        text: 'Go Back Two Spaces'
+        text: 'Go back two spaces'
     }
 },
 {
@@ -885,7 +885,7 @@ const GRID_DATA = [{
     direction: 2,
     data: {
         color: WHITE_COLOR,
-        text: 'Move back two spaces'
+        text: 'Move ahead two spaces'
     }
 },
 {
@@ -1013,7 +1013,7 @@ const GRID_DATA = [{
     direction: -2,
     data: {
         color: WHITE_COLOR,
-        text: 'Go Back Two Spaces'
+        text: 'Go back two spaces'
     }
 },
 {
@@ -1049,7 +1049,7 @@ const GRID_DATA = [{
     direction: -2,
     data: {
         color: WHITE_COLOR,
-        text: 'Go Back Two Spaces'
+        text: 'Go back two spaces'
     }
 },
 {
@@ -1076,7 +1076,7 @@ const GRID_DATA = [{
     direction: -2,
     data: {
         color: WHITE_COLOR,
-        text: 'Go Back Two Spaces'
+        text: 'Go back two spaces'
     }
 },
 {
